@@ -1,4 +1,30 @@
-p {
+.lesson1 p {
   font-size: 64px;
   color: purple;
+}
+html {
+  font-size: 22px;
+}
+.lesson2 h1,
+h2 {
+  color: blue;
+}
+.lesson2 p {
+  color: purple;
+}
+.lesson2 p {
+  color: red;
+}
+.lesson2 .highlight {
+  text-transform: uppercase;
+  background-color: gold;
+}
+.lesson2 .gray {
+  color: gray;
+}
+.lesson2 #second {
+  font-style: italic;
+}
+.lesson2 main {
+  font-family: monospace;
 }
