@@ -148,3 +148,26 @@ h2 {
   /* font-style: oblique; */
   /* font-style: normal; */
 }
+
+/* .lesson7 main {
+  opacity: 0.8;
+} */
+
+.lesson7 a {
+  /* text-decoration: none; */
+  /* cursor: not-allowed; */
+  /* cursor: pointer; */
+  color: hsl(207, 44%, 49%);
+}
+.lesson7 a:visited {
+  color: purple;
+}
+.lesson7 a:hover,
+.lesson7 a:focus {
+  color: hsl(207, 44%, 49%, 0.8);
+  /* opacity: 0.8; */
+  background: gold;
+}
+.lesson7 a:active {
+  color: red;
+}
