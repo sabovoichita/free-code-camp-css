@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 html {
-  font-size: 22px;
+  font-size: 16px;
 }
 body {
   min-height: 100vh;
@@ -170,4 +170,62 @@ h2 {
 }
 .lesson7 a:active {
   color: red;
+}
+
+.lesson8 {
+  padding: 5% 10%;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+.lesson8 ol {
+  /* list-style-type: georgian; */
+  /* list-style-type: decimal; */
+  /* list-style-type: decimal-leading-zero; */
+  /* list-style-type: disc; */
+  /* list-style-type: circle; */
+  /* list-style-type: upper-roman; */
+  list-style-type: lower-alpha;
+  /* list-style-type: none; */
+  padding: 0;
+}
+.lesson8 ul {
+  list-style-type: square;
+  text-align: center;
+  list-style-position: inside;
+  /* list-style-position: outside; */
+  color: blue;
+  line-height: 1.6;
+  /* list-style-image: url(images/checkmark.png);
+  list-style: square url(images/checkmark.png) inside; */
+}
+/* .lesson8 ul li:nth-child(2) {
+  color: red;
+} */
+/* .lesson8 ul li:nth-child(odd) {
+  color: red;
+} */
+.lesson8 ul li:nth-child(even) {
+  color: red;
+}
+/*
+applied to all
+ .lesson8 ::marker { 
+  color: red;
+  font-family: fantasy;
+  font-size: 2rem;
+  content: "Only $5 >>";
+} */
+
+/* applied to ul
+.lesson8 ul ::marker {
+  color: red;
+  font-family: fantasy;
+  font-size: 2rem;
+  content: "Only $5 >>";
+} */
+.lesson8 ul ::marker {
+  color: red;
+  font-family: fantasy;
+  font-size: 2rem;
+  content: "Only $5 >> ";
 }
